@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class A2_108201017  {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-		Integer str1 = scanner.nextInt();
+	Integer str1 = scanner.nextInt();
         scanner.nextLine();
         String str2 = scanner.nextLine();
         scanner.close();
@@ -15,12 +15,12 @@ public class A2_108201017  {
             for(int k = (str1-1); k > i; k--) { // 第二層迴圈負責印空白( )
                 System.out.print(" ");
             }
-            System.out.print(str2.substring(0,1));
+            	System.out.print(str2.substring(0,1));
             for (int j = 0; j < i; j++) {  // 第二層迴圈負責印星號(*)
                 if (i==str1-1){System.out.print(str2.substring(0,1)+str2.substring(0,1));}
                 else{System.out.print(str2.substring(1)+str2.substring(1));}
             }
-            System.out.print(str2.substring(0,1)+"\n");
+            	System.out.print(str2.substring(0,1)+"\n");
         }
     }
 }
