@@ -11,12 +11,12 @@ public class A2_108201017  {
         scanner.nextLine();
         String str2 = scanner.nextLine();
         scanner.close();
-        for (int i = 0; i < str1; i++) {    // 第一層迴圈負責印斷行(\n)
-            for(int k = (str1-1); k > i; k--) { // 第二層迴圈負責印空白( )
+        for (int i = 0; i < str1; i++) {    
+            for(int k = (str1-1); k > i; k--) {
                 System.out.print(" ");
             }
             	System.out.print(str2.substring(0,1));
-            for (int j = 0; j < i; j++) {  // 第二層迴圈負責印星號(*)
+            for (int j = 0; j < i; j++) { 
                 if (i==str1-1){System.out.print(str2.substring(0,1)+str2.substring(0,1));}
                 else{System.out.print(str2.substring(1)+str2.substring(1));}
             }
