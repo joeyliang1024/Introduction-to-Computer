@@ -29,7 +29,7 @@ public class P2_108201017 {
             }
         catch(IOException e){
             System.out.println(e);
-        }
+            }
         fr.close();
     }
 }
