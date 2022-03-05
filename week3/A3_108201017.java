@@ -1,3 +1,8 @@
+/**
+Assignment 3
+Student numnber : 108201017
+Course : 2022-CE1002
+ */
 import java.util.Vector;
 class Book{
     private String Name;
@@ -9,7 +14,7 @@ class Book{
         this.Content = CONTENT;
     }
     //methods
-    public String getName(){
+    public  String getName(){
         return Name;
     }
     public String getISBN(){
@@ -28,17 +33,17 @@ class Book{
     }
 }
 class BookShelf{
-    private Vector<Book> Shelf;
+    private Vector<Book> Shelf = new Vector<Book>();
     public BookShelf(){
-        
     }
     void addBook( Book MYBook ){
-        Shelf.addElement(MYBook);
+        Shelf.add(MYBook);
     }
     void showBookShelf(){
         int i = 0;
-        while( i <= Shelf.size() ){
-            System.out.println("\n");
+        while( i < Shelf.size() ){
+            System.out.print(i);
+            System.out.println(" "+Shelf.elementAt(i).getName()+" "+Shelf.elementAt(i).getISBN());
             i++;
         }
     }
