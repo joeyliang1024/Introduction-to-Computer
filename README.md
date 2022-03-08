@@ -10,4 +10,12 @@
     - 第一列為一個數字，表示金字塔的高 (此數字最小為3)。
     - 第二列為兩個字符組成的字串，表示金字塔外圈與內部的符號。
   - Output:金字塔
-
+- 第三週作業：
+  - 請依照下列的規定，實作出兩個class，Book和BookShelf (屬性property、方法method)
+  - Book
+    - ![week3hw]()
+    - Book (String NAME , String iSBN , Vector<String> CONTENT)：為建構子，將NAME參數存入屬性Name；iSBN參數存入屬性ISBN； CONTENT參數存入屬性Content
+    - String getName ()：回傳屬性Name
+    - String getISBN()：回傳屬性ISBN
+    - String getContent ( int PAGE )：回傳 Content 屬性中第 PAGE 格的內容 ；如果PAGE >= Content.size()，則回傳「Error」字串
+    - void addPage(String SENTENCE)：將SENTENCE加入屬性Content的尾端 (hint: 使用Vector的add, C++ vector的push_back)
