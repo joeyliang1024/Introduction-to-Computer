@@ -1,14 +1,14 @@
 # 第三週作業：
   - 請依照下列的規定，實作出兩個class，Book和BookShelf (屬性property、方法method)
   - Book
-    - ![Book](/Book.png)
+    - ![Book](Book.png)
     - Book (String NAME , String iSBN , Vector<String> CONTENT)：為建構子，將NAME參數存入屬性Name；iSBN參數存入屬性ISBN； CONTENT參數存入屬性Content
     - String getName ()：回傳屬性Name
     - String getISBN()：回傳屬性ISBN
     - String getContent ( int PAGE )：回傳 Content 屬性中第 PAGE 格的內容 ；如果PAGE >= Content.size()，則回傳「Error」字串
     - void addPage(String SENTENCE)：將SENTENCE加入屬性Content的尾端 (hint: 使用Vector的add, C++ vector的push_back)
   - BookShelf
-    - ![BookShelf](/BookShelf.png)
+    - ![BookShelf](BookShelf.png)
     - BookShelf ()：為建構子，不做任何事情
     - void addBook ( Book MYBook )：將MYBook加入屬性Shelf的尾端 (hint: 使用Vector的add, C++ vector的push_back)
     - void showBookShelf ()：依序顯示屬性Shelf裡面所有Book的書名、ISBN，並在最前面顯示該Book在Shelf中的哪個位子(位子由0開始計算) (位子、書名、ISBN之間要半形空格，最後換行)
