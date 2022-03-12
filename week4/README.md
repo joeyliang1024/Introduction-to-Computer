@@ -1,4 +1,4 @@
-#  第三週作業：
+#  第四週作業：
   - 請依照下列的規定，實作出三個class，Character(父)、Archer(子)、Medic(子)
   - Character
     - ![Character](Character.png)
