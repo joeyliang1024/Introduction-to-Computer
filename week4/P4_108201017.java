@@ -25,14 +25,14 @@ class  newborn_Dog extends Dog {
 public class P4_108201017 {
     public static void main(String[] args) {
         Pet putin = new Pet();
-		Cat neko  = new Cat();
-		Dog inu   = new Dog();
-		newborn_Cat meow = new newborn_Cat();
-		newborn_Dog woof = new newborn_Dog();
-		putin.speak();
-		neko.speak();
-		inu.speak();
-		meow.speak();
-		woof.speak();
+	Cat neko  = new Cat();
+	Dog inu   = new Dog();
+	newborn_Cat meow = new newborn_Cat();
+	newborn_Dog woof = new newborn_Dog();
+	putin.speak();
+	neko.speak();
+	inu.speak();
+	meow.speak();
+	woof.speak();
     }
 }
