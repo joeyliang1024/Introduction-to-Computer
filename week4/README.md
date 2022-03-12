@@ -2,7 +2,7 @@
   - 請依照下列的規定，實作出三個class，Character(父)、Archer(子)、Medic(子)
   - Character
     - ![Character](Character.png)
-    Character (String name , int level , int health)為建構子，將name參數存入屬性name；health參數存入屬性health； level參數存入屬性level
+    - Character (String name , int level , int health)為建構子，將name參數存入屬性name；health參數存入屬性health； level參數存入屬性level
     - String getName ()：回傳屬性name
     - Int getLevel()：回傳屬性level
     - Int gethealth()：回傳屬性health
